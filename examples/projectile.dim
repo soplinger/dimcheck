@@ -1,0 +1,13 @@
+# A 0.5 kg ball thrown at 12 m/s: energy, weight and conversions.
+unit furlong = 201.168 m
+mass = 0.5 kg
+speed = 12 m/s
+ke = 0.5 * mass * speed^2
+check ke = 36 J
+check ke = 36 kg*m^2/s^2
+weight = mass * g0
+check weight = 4.903325 N
+show ke -> J
+show weight -> lbf
+show speed -> mph
+show 2 furlong -> m

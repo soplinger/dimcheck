@@ -1,0 +1,13 @@
+# Deliberately broken formulas, used by the tests and as a lint demo.
+mass = 2 kg
+speed = 3 m/s
+momentum = mass * speed
+check momentum = 6 kg*m/s
+check momentum = 6 N
+energy = mass * speed
+check energy = 9 J
+distance = 5 m + 2 s
+total = mass + speed
+show momentum -> kg*m/s^2
+unit lever = 1 m
+energy2 = ghost + 1
